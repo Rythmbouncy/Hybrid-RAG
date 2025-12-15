@@ -4,9 +4,9 @@ This project demonstrates a robust Retrieval-Augmented Generation (RAG) pipeline
 
 ## 1. Key Components
 
-| **Dataset** | `zeroshot/arxiv-biology` | 
-| **Embedding Model** | `all-MiniLM-L6-v2` | 
-| **Vector Store** | Pinecone | 
+| **Dataset** | `zeroshot/arxiv-biology` | <br>
+| **Embedding Model** | `all-MiniLM-L6-v2` | <br>
+| **Vector Store** | Pinecone | <br>
 | **LLM** | Google Gemini 2.5 Flash |
 
 ## 2. Setup and Installation
@@ -44,3 +44,10 @@ EMBEDDING_DIMENSION=384
 
 PINECONE_CLOUD="aws"              
 PINECONE_REGION="us-east-1"
+```
+
+## 3.Running the Pipeline
+
+```bash
+python main.py
+```
