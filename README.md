@@ -51,3 +51,5 @@ PINECONE_REGION="us-east-1"
 ```bash
 python main.py
 ```
+
+Update the vector search query in main.py on line 33 as needed.
